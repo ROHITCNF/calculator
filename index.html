@@ -2,46 +2,51 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   <title>Calculator</title>
+  <!-- css only bootstrap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <h1>CALCULATOR</h1>
-  <div class="calculator">
+  <div class="calculator container-fluid">
 
     <!-- lcd screen which give output -->
     <!-- initial value, and from then on it can be altered or retrieved at any time using JavaScript to access -->
     <!-- we will acess the "value" of input tag to find our answer -->
+    <div class="row output">
     <input class="lcd" id="answer" type="text" name="output" readonly>
+    </div>
+
     <!-- container which contains our input buttons -->
     <!-- we have to make 5 div each div contains 4 buttons -->
-    <div class="input-button">
+    <div class="row input-button">
       <button class="( input" type="button" name="button">(</button>
       <button class=") input" type="button" name="button">)</button>
       <button class="= input" id="input-red" type="button" name="button">C</button>
       <button class="% input" type="button" name="button">%</button>
     </div>
-    <div class="input-button">
+    <div class="row input-button">
       <button class="7 input" type="button" >7</button>
       <button class="8 input" type="button" name="button">8</button>
       <button class="9 input" type="button" name="button">9</button>
       <button class="X input" type="button" name="button">x</button>
     </div>
-    <div class="input-button">
+    <div class="row input-button">
       <button class="4 input" type="button" name="button">4</button>
       <button class="5 input" type="button" name="button">5</button>
       <button class="6 input" type="button" name="button">6</button>
       <button class="- input" type="button" name="button">-</button>
     </div>
-    <div class="input-button">
+    <div class="row input-button">
       <button class="1 input" type="button" name="button">1</button>
       <button class="2 input" type="button" name="button">2</button>
       <button class="3 input" type="button" name="button">3</button>
       <button class="+ input" type="button" name="button">+</button>
     </div>
-    <div class="input-button">
+    <div class="row input-button">
       <button class="0 input" type="button" name="button">0</button>
       <button class=". input" type="button" name="button">.</button>
       <button class="/ input" type="button" name="button">/</button>
@@ -56,3 +61,4 @@
 </footer>
 
 </html>
+
