@@ -1,0 +1,47 @@
+h1{
+  font-weight: bold;
+  font-style: italic;
+}
+body{
+  background-color: #66BFBF;
+  text-align: center;
+}
+.calculator{
+  position: relative;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.lcd{
+margin: auto;
+  width: 81.5%;
+ background-color: #B9F8D3;
+ height: 65px;
+ border-radius:15px;
+ border-color: inherit;
+ font-size: 30px;
+}
+
+.input{
+  border-radius:10px;
+  height: 55px;
+  width: 20%;
+  margin:10px auto 2.5px auto;
+  font-size: 30px;
+}
+#input-red{
+  background-color: #FF8B8B;
+}
+#input-green{
+  background-color: #5FD068;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+footer{
+  margin-top: 10px;
+  padding-top: 10px;
+}
