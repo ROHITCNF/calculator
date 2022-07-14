@@ -13,7 +13,7 @@ body{
   padding-bottom: 10px;
 }
 .lcd{
-/* width: 90%; */
+width: 100%;
  background-color: #B9F8D3;
  height: 65px;
  border-radius:15px;
